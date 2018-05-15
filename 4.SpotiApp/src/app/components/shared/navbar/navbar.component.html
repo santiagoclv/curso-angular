@@ -1,0 +1,28 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" 
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
+      aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand">
+    <!--<img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">-->
+    <img src="assets/img/banner-ico.png" width="30" height="30" alt="">
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <!-- active es la class que permite hacer que sobresalte un elemento. -->
+      <!-- routerLinkActive que clase utilizar sobre el elemento cuado esta activo. -->
+      <li class="nav-item" routerLinkActive="active">
+         <!-- [routerLink]="[]" el arreglo que toma, cada parte es como segmentos de una url dividida por "/" -->
+         <!-- [routerLink]="['home']" es como un href pero para llamar componentes sin refresh -->
+         <!-- [routerLink]="['home','algo','ingreso']" esto me llevaria a /home/algo/ingreso -->
+         <!-- Depecrated href="#" ahora se utiliza routerLink -->
+        <a class="nav-link" [routerLink]="['home']">Home</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['search']">Buscar</a>
+      </li>
+    </ul>
+  </div>
+</nav>

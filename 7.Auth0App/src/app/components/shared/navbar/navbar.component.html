@@ -1,0 +1,24 @@
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" 
+        data-toggle="collapse" data-target="#navbarSupportedContent" 
+        aria-controls="navbarSupportedContent" 
+        aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="nav-link" href="#">AuthApp</a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['home']">Home</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['user', '10']">Ususarios</a>
+      </li>
+      <li class="nav-item" *ngIf="_authService.isAuthenticated()" routerLinkActive="active">
+        <a class="nav-link" [routerLink]="['protected']">Protegida</a>
+      </li>
+    </ul>
+    <button type="button" *ngIf="!_authService.isAuthenticated()" class="btn btn-outline-primary btn-sm" (click)="login()" [ngStyle]="{ 'color': 'white' }" >Login</button>
+    <button type="button" *ngIf="_authService.isAuthenticated()" class="btn btn-outline-primary btn-sm" (click)="logout()" [ngStyle]="{ 'color': 'white' }" >Salir</button>
+  </div>
+</nav>

@@ -1,0 +1,15 @@
+<div class="main-container row" *ngIf="profile">
+  <div class="col-md-4">
+    <img class="img-fluid" src="{{profile.picture}}">
+  </div>
+    
+   <div class="col-md-4">
+     <ul class="list-group">
+        <li class="list-group-item">Nombre: {{profile.name}}</li>
+        <li class="list-group-item">Genero: {{profile.gender}}</li>
+        <li class="list-group-item">Ultima Conexión: {{ profile.updated_at | date:'dd/MM' }}</li>
+     </ul>
+  </div>
+</div>
+
+<pre *ngIf="profile">{{ profile | json }}</pre>

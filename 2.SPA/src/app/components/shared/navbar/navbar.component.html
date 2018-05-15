@@ -1,0 +1,38 @@
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">
+    <!--<img src="/assets/brand/bootstrap-solid.svg" width="30" height="30" alt="">-->
+    <img src="/assets/img/A-64.png" width="30" height="30" alt="">
+  </a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <!-- active es la class que permite hacer que sobresalte un elemento. -->
+      <!-- routerLinkActive que clase utilizar sobre el elemento cuado esta activo. -->
+      <li class="nav-item" routerLinkActive="active">
+         <!-- [routerLink]="[]" el arreglo que toma, cada parte es como segmentos de una url dividida por "/" -->
+         <!-- [routerLink]="['home']" es como un href pero para llamar componentes sin refresh -->
+         <!-- [routerLink]="['home','algo','ingreso']" esto me llevaria a /home/algo/ingreso -->
+         <!-- Depecrated href="#" ahora se utiliza routerLink -->
+        <a class="nav-link" [routerLink]="['home']">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" href="#" [routerLink]="['heroes']">Heroes</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" href="#" [routerLink]="['about']">About</a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+        <!-- disabled es la class que permite hacer que un elemento quede se vea desabilitado -->
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <!-- Es posible referenciar al valor de un elemento en particular, marcandolo con # y dando un nombre. -->
+      <input class="form-control mr-sm-2" type="text" placeholder="Buscar Heroe" (keyup.enter)="buscarHeroe(buscarTexto.value)" #buscarTexto>
+      <button class="btn btn-outline-primary my-2 my-sm-0" type="button" (click)="buscarHeroe(buscarTexto.value)">Buscar</button>
+    </form>
+  </div>
+</nav>

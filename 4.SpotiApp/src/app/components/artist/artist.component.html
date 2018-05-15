@@ -1,0 +1,67 @@
+<div *ngIf="artist" class="container main-container animated fadeIn fast">
+
+  <div class="row">
+    <div class="col-md-3 text-center">
+      <img [src]="artist.images | sinfoto " class="img-thumbnail img-circle">
+      <br>
+    </div>
+
+    <div class="col-md-9">
+      <h3>{{artist.name}} <small>Popu: {{artist.popularity}}</small></h3>
+      <hr>
+      <a [href]="artist.external_urls?.spotify" class="btn btn-outline-success">
+            Ver Pagina
+        </a>
+      <a [routerLink]="['/search']" class="btn btn-outline-danger">
+            Volver
+        </a>
+    </div>
+
+  </div>
+  <div *ngIf="traks">
+    <h3>Top de {{artist.name}}</h3>
+    <hr>
+
+    <div class="main-container">
+      <div class="row">
+        <div class="col-md-12">
+          <table class="table table-inverse table-hover">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Foto</th>
+                <th>Cancion</th>
+                <th>Popu</th>
+                <th>Preview</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let trak of traks; let i = index">
+                <td scope="row">{{i+1}}</td>
+                <td>
+                  <img [src]="trak.album?.images | sinfoto " class="img-fluid img-50">
+                </td>
+                <td>
+                  {{trak.name }}
+                </td>
+                <td>
+                   {{trak.popularity}}
+                </td>
+                <td>
+                  <!--<audio controls>
+                    <source [src]="trak.preview_url">
+                    <i class="fa fa-firefox" aria-hidden="true">Actuliza tu navegador</i>
+                  </audio>-->
+                  <!-- Widget Spotify play track, utilizando domseguro -->
+                  <iframe [src]="trak.uri | domseguro:trackUri"
+                  width="300" height="80" frameborder="0" allowtransparency="true"></iframe>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

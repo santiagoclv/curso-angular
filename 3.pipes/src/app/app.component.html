@@ -1,0 +1,132 @@
+<div class="container">
+  <br />
+  <h1>Pipes</h1>
+  <hr />
+  <table class="table">
+    <thead class="thead-inverse">
+      <tr>
+        <th>Variable</th>
+        <th>Pipe</th>
+        <th>Producto</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{name}}</td>
+        <td><span style="color: red">UPPERCASE</span></td>
+        <td>{{name | uppercase}}</td>
+      </tr>
+      <tr>
+        <td>{{name}}</td>
+        <td><span style="color: red">lowercase</span></td>
+        <td>{{name | lowercase}}</td>
+      </tr>
+      <tr>
+        <td>{{name}}</td>
+        <td><span style="color: red">slice:3</span> quita las 3 primeras (Arreglo o String)</td>
+        <td>{{name | slice:3}}</td>
+      </tr>
+      <tr>
+        <td>{{name}}</td>
+        <td><span style="color: red">slice:0:3</span> quiero las 3 primeras (Arreglo o String)</td>
+        <td>{{name | slice:0:3}}</td>
+      </tr>
+      <tr>
+        <td>{{arreglo}}</td>
+        <td><span style="color: red">slice:1:5</span> arreglo 1 al 5</td>
+        <td>{{arreglo | slice:1:5}}</td>
+      </tr>
+      <tr>
+        <td>{{numero}}</td>
+        <td><span style="color: red">DecimalPipe</span> '5.2-2' 'minIntegerDigits.minFractionDigits-maxFractionDigits'</td>
+        <td>{{numero | number:'5.2-2'}}</td>
+      </tr>
+      <tr>
+        <td>{{numero}}</td>
+        <td><span style="color: red">DecimalPipe</span> '.2-2'</td>
+        <td>{{numero | number:'.2-2'}}</td>
+      </tr>
+      <tr>
+        <td>{{numero2}}</td>
+        <td><span style="color: red">DecimalPipe</span> '5.2-2' 'minIntegerDigits.minFractionDigits-maxFractionDigits'</td>
+        <td>{{numero2 | number:'5.2-2'}}</td>
+      </tr>
+      <tr>
+        <td>{{numero2}}</td>
+        <td><span style="color: red">percent</span> numeros a porcentaje en base a conf local browser'</td>
+        <td>{{numero2 | percent}}</td>
+      </tr>
+      <tr>
+        <td>{{numero2}}</td>
+        <td><span style="color: red">percent</span> '5.2-2' 'minIntegerDigits.minFractionDigits-maxFractionDigits'</td>
+        <td>{{numero2 | percent:'5.2-2'}}</td>
+      </tr>
+      <tr>
+        <td>{{numero}}</td>
+        <td><span style="color: red">currencyCode</span> es el ISO 4217 codigo de moneda (USD dolares, EUR euros)</td>
+        <td>{{numero | currency:'USD':false}}</td>
+      </tr>
+      <tr>
+        <td>{{numero2}}</td>
+        <td><span style="color: red">currencyCode</span> '4.2-3' :currencyCode:symbolDisplay:digitInfo </td>
+        <td>{{numero2 | currency:'UYU':true:'4.2-3'}}</td>
+      </tr>
+      <tr>
+        <td>{{numero2}}</td>
+        <td><span style="color: red">currencyCode</span> 'UYI':true:'.2-2'</td>
+        <td>{{numero2 | currency:'UYI':true:'.2-2'}}</td>
+      </tr>
+      <tr>
+        <td>{{numero2}}</td>
+        <td><span style="color: red">currencyCode</span> '4.2-2'</td>
+        <td>{{numero2 | currency:'EUR':true:'4.2-2'}}</td>
+      </tr>
+      <tr>
+        <td>{{getData}}</td>
+        <td><span style="color: red">{{ "async" | uppercase }}</span> Para Promises y Observable</td>
+        <td>{{getData | async}}</td>
+      </tr>
+      <tr>
+        <td>{{promesaPropiedad}}</td>
+        <td><span style="color: red">{{ "async" | uppercase }}</span> Para Promises y Observable "como retornos"</td>
+        <td>{{promesaPropiedad | async}}</td>
+      </tr>
+      <tr>
+        <td>{{fecha}}</td>
+        <td><span style="color: red">{{ "date" | uppercase }}</span> date por defecto</td>
+        <td>{{fecha | date}}</td>
+      </tr>
+      <tr>
+        <td>{{fecha}}</td>
+        <td><span style="color: red">{{ "date" | uppercase }}</span> date:'medium'</td>
+        <td>{{fecha | date:'medium'}}</td>
+      </tr>
+      <tr>
+        <td>{{fecha}}</td>
+        <td><span style="color: red">{{ "date" | uppercase }}</span> date:'MMMM - dd'</td>
+        <td>{{fecha | date:'MMMM - dd'}}</td>
+      </tr>
+      <tr>
+        <td>{{ nombreCompleto }}</td>
+        <td><span style="color: red">capitalizado</span> </td>
+        <td>{{ nombreCompleto | capitalizado }}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Slice - Listas con limites</h3>
+  <p>Slice del 5 al 20, aunque no tenga ese largo el arreglo, no da error.
+    <br>-- li *ngFor="let num of arreglo | slice:5:20" li --
+  </p>
+  <ul>
+    <li *ngFor="let num of arreglo | slice:5:20" >{{num}}</li>
+  </ul>
+
+  <h3>Json - Mostrar objetos json</h3>
+  <samp>Bootstrap 4 con la etiqueta pre nos ayuda a visualizarlo mejor al objeto</samp>
+    
+    <pre>{{ heroe | json }}</pre>
+
+  <iframe width="560" height="315" [src]="value | domseguro:youtube" frameborder="0" allowfullscreen></iframe>
+
+</div>

@@ -1,0 +1,704 @@
+{
+"artists": {
+"href": "https://api.spotify.com/v1/search?query=pepe&type=artist&offset=0&limit=20",
+"items": [
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/7LXdYckhvHWU4ejXbkHa3N"
+},
+"followers": {
+"href": null,
+"total": 35021
+},
+"genres": [
+  "latin",
+  "latin hip hop",
+  "reggaeton",
+  "reggaeton flow",
+  "trap latino",
+  "tropical"
+],
+"href": "https://api.spotify.com/v1/artists/7LXdYckhvHWU4ejXbkHa3N",
+"id": "7LXdYckhvHWU4ejXbkHa3N",
+"images": [
+  {
+"height": 500,
+"url": "https://i.scdn.co/image/ec40650de67ee921f7c245b311704c1aae492c59",
+"width": 500
+},
+  {
+"height": 200,
+"url": "https://i.scdn.co/image/8dcd618ac8cd6502082e078a1e37553cefb94160",
+"width": 200
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/481d7bb1ff6c6a27f4d79fdd5e0e7a6def0ac213",
+"width": 64
+}
+],
+"name": "Pepe Quintana",
+"popularity": 66,
+"type": "artist",
+"uri": "spotify:artist:7LXdYckhvHWU4ejXbkHa3N"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/03Yb3iBy9GCifXiATEFcit"
+},
+"followers": {
+"href": null,
+"total": 331984
+},
+"genres": [
+  "banda",
+  "grupera",
+  "latin",
+  "latin pop",
+  "mariachi",
+  "norteno",
+  "ranchera",
+  "regional mexican"
+],
+"href": "https://api.spotify.com/v1/artists/03Yb3iBy9GCifXiATEFcit",
+"id": "03Yb3iBy9GCifXiATEFcit",
+"images": [
+  {
+"height": 1178,
+"url": "https://i.scdn.co/image/eb3bd51c4a480f12505e6e8278a6e39eb39b709d",
+"width": 1000
+},
+  {
+"height": 754,
+"url": "https://i.scdn.co/image/10ade3268958592ee0537d067ceaba8c85c40141",
+"width": 640
+},
+  {
+"height": 236,
+"url": "https://i.scdn.co/image/954f81fa3ba77cf6fed85caabaaeb99340d485e6",
+"width": 200
+},
+  {
+"height": 75,
+"url": "https://i.scdn.co/image/e5c527918020771dd9528d7be51410a72324c9ae",
+"width": 64
+}
+],
+"name": "Pepe Aguilar",
+"popularity": 70,
+"type": "artist",
+"uri": "spotify:artist:03Yb3iBy9GCifXiATEFcit"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/0jhq1SdEoYJ8UmYvp21RVh"
+},
+"followers": {
+"href": null,
+"total": 14345
+},
+"genres": [
+  "deep norteno",
+  "duranguense",
+  "norteno"
+],
+"href": "https://api.spotify.com/v1/artists/0jhq1SdEoYJ8UmYvp21RVh",
+"id": "0jhq1SdEoYJ8UmYvp21RVh",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/764d0f7daa608f29bf7384bd0c09804599702b4e",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/9f534dbfc6d13a8ff77f7e2c2e6c5ee720f7ccba",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/3f289685927f8083c2faeffb15258e58977503c0",
+"width": 64
+}
+],
+"name": "Pepe Tovar Y Los Chacales",
+"popularity": 47,
+"type": "artist",
+"uri": "spotify:artist:0jhq1SdEoYJ8UmYvp21RVh"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/6XrTQXJjbxk5aM7hyFwSh9"
+},
+"followers": {
+"href": null,
+"total": 7550
+},
+"genres": [
+  "deep norteno",
+  "duranguense",
+  "norteno"
+],
+"href": "https://api.spotify.com/v1/artists/6XrTQXJjbxk5aM7hyFwSh9",
+"id": "6XrTQXJjbxk5aM7hyFwSh9",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/86d0b4ac165d8acc480e55f1d8134b23a54bfb00",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/627aacc5cf0499647287ee326a3b4c49c5bd0fba",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/a2fe028724e0b8f92e5581ec0e0628bb4123978e",
+"width": 64
+}
+],
+"name": "Pepe Tovar",
+"popularity": 43,
+"type": "artist",
+"uri": "spotify:artist:6XrTQXJjbxk5aM7hyFwSh9"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/2uaXicUC7B0nIKCFaxlTHj"
+},
+"followers": {
+"href": null,
+"total": 3882
+},
+"genres": [
+  "classical guitar"
+],
+"href": "https://api.spotify.com/v1/artists/2uaXicUC7B0nIKCFaxlTHj",
+"id": "2uaXicUC7B0nIKCFaxlTHj",
+"images": [
+  {
+"height": 1000,
+"url": "https://i.scdn.co/image/f64104a586caa77c7ae17a3d349d4a9269ba5ebf",
+"width": 1000
+},
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/f6846b443c9b39d3af80eb8d6a8eeb8c625d304f",
+"width": 640
+},
+  {
+"height": 200,
+"url": "https://i.scdn.co/image/ac5da041c412edd0903fd4baebb679d813b7741a",
+"width": 200
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/794a8536a064d43b72a0713fc6577c115c8cc1dc",
+"width": 64
+}
+],
+"name": "Pepe Romero",
+"popularity": 38,
+"type": "artist",
+"uri": "spotify:artist:2uaXicUC7B0nIKCFaxlTHj"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/0pbypzuUbRSKp7sdfbl3m3"
+},
+"followers": {
+"href": null,
+"total": 2012
+},
+"genres": [
+  "deep cumbia sonidera"
+],
+"href": "https://api.spotify.com/v1/artists/0pbypzuUbRSKp7sdfbl3m3",
+"id": "0pbypzuUbRSKp7sdfbl3m3",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/10c9f7aa82a0c384811603955e6f66d7030e2808",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/19cc3ca6d55aff2971a7171af0b0c6b20355ab0f",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/057b84afd4d764e55753b7d9d106b9dd8d50b0ce",
+"width": 64
+}
+],
+"name": "Pepe Ramos",
+"popularity": 31,
+"type": "artist",
+"uri": "spotify:artist:0pbypzuUbRSKp7sdfbl3m3"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/5Hy4piwHqiPaqateMRwnrK"
+},
+"followers": {
+"href": null,
+"total": 414
+},
+"genres": [],
+"href": "https://api.spotify.com/v1/artists/5Hy4piwHqiPaqateMRwnrK",
+"id": "5Hy4piwHqiPaqateMRwnrK",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/a936a569a2c25581e7cabde43e2edd8278542518",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/6faf7ac7867743c4779cb412521452ebe5534e1d",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/92d0ccd44035528a52aef2fb084321a4b4d1929c",
+"width": 64
+}
+],
+"name": "P.E.P.E.",
+"popularity": 31,
+"type": "artist",
+"uri": "spotify:artist:5Hy4piwHqiPaqateMRwnrK"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/3bjZumiAGccDidSrDvGSNZ"
+},
+"followers": {
+"href": null,
+"total": 224
+},
+"genres": [],
+"href": "https://api.spotify.com/v1/artists/3bjZumiAGccDidSrDvGSNZ",
+"id": "3bjZumiAGccDidSrDvGSNZ",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/99fa0820c7e97068457c6060573fa8681b9beb38",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/b365266f87d4bbaec0d29057333c52d211ff10e7",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/e617f586e4bb7d13a16d75be2aed60d284ae2871",
+"width": 64
+}
+],
+"name": "Pepe Cabrera",
+"popularity": 29,
+"type": "artist",
+"uri": "spotify:artist:3bjZumiAGccDidSrDvGSNZ"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/02IeeHmp855833vM1eHQw8"
+},
+"followers": {
+"href": null,
+"total": 617
+},
+"genres": [
+  "merengue urbano"
+],
+"href": "https://api.spotify.com/v1/artists/02IeeHmp855833vM1eHQw8",
+"id": "02IeeHmp855833vM1eHQw8",
+"images": [],
+"name": "Los Pepe",
+"popularity": 35,
+"type": "artist",
+"uri": "spotify:artist:02IeeHmp855833vM1eHQw8"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/2pTMHhbToqVd0nXzEiwaRz"
+},
+"followers": {
+"href": null,
+"total": 1501
+},
+"genres": [
+  "mariachi",
+  "ranchera"
+],
+"href": "https://api.spotify.com/v1/artists/2pTMHhbToqVd0nXzEiwaRz",
+"id": "2pTMHhbToqVd0nXzEiwaRz",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/dabece7295ee3e2d6cd8296e38cfc90eb051641a",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/e58c6b70233d6927e6c9d1e1d90ecc09be4be55a",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/f99f5c29be6a0d3a2793b60ba7b8d21128c91f47",
+"width": 64
+}
+],
+"name": "Mariachi México de Pepe Villa",
+"popularity": 33,
+"type": "artist",
+"uri": "spotify:artist:2pTMHhbToqVd0nXzEiwaRz"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/7mgJxO40rZ1nY2ArNVdG7c"
+},
+"followers": {
+"href": null,
+"total": 2071
+},
+"genres": [
+  "deep norteno"
+],
+"href": "https://api.spotify.com/v1/artists/7mgJxO40rZ1nY2ArNVdG7c",
+"id": "7mgJxO40rZ1nY2ArNVdG7c",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/818df3b3d47c935e745707f0628d86e977b9a268",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/d5687877a3db0bea5e2e37f11f5cb46ce6cdf74f",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/d802390cfb54d7233bb0e7f0a9f1ef09c3fa2993",
+"width": 64
+}
+],
+"name": "Pepe Hernández",
+"popularity": 27,
+"type": "artist",
+"uri": "spotify:artist:7mgJxO40rZ1nY2ArNVdG7c"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/33CBC8BnDtnQKsgK2JeOyO"
+},
+"followers": {
+"href": null,
+"total": 19744
+},
+"genres": [
+  "spanish hip hop",
+  "spanish reggae",
+  "trap latino"
+],
+"href": "https://api.spotify.com/v1/artists/33CBC8BnDtnQKsgK2JeOyO",
+"id": "33CBC8BnDtnQKsgK2JeOyO",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/73f23a636a2ca124eaa7070289693f532fc69db1",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/78b8f052b48dcfd351dd534abbf5fb35faaa339a",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/81e75c7da37f69c02fb3145cbdb8ff40b6f239ee",
+"width": 64
+}
+],
+"name": "Little Pepe",
+"popularity": 46,
+"type": "artist",
+"uri": "spotify:artist:33CBC8BnDtnQKsgK2JeOyO"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/6zK5u6YhHezhkI3QY485yV"
+},
+"followers": {
+"href": null,
+"total": 2293
+},
+"genres": [
+  "african gospel",
+  "azontobeats",
+  "makossa",
+  "soukous"
+],
+"href": "https://api.spotify.com/v1/artists/6zK5u6YhHezhkI3QY485yV",
+"id": "6zK5u6YhHezhkI3QY485yV",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/c4d448851a6c9e376e4f43f59479c5bae1d9aad4",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/0476f2d608524c91e7f0e211f5ea5b5ac56ada62",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/2a962fb93f33921c43e5c9fa1fac71e93423bcd5",
+"width": 64
+}
+],
+"name": "Pepe Kalle",
+"popularity": 27,
+"type": "artist",
+"uri": "spotify:artist:6zK5u6YhHezhkI3QY485yV"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/0ay6m3OlBxTuEwu1NFHlZI"
+},
+"followers": {
+"href": null,
+"total": 130
+},
+"genres": [],
+"href": "https://api.spotify.com/v1/artists/0ay6m3OlBxTuEwu1NFHlZI",
+"id": "0ay6m3OlBxTuEwu1NFHlZI",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/c082f1ae6e5d025b0f929a3c8f7578272d8dd652",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/46221c90d690da8fde033ee325e8b4a31e1f3c1c",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/e45f17a4b5434f7a787af1fa0804fbb4d0864dad",
+"width": 64
+}
+],
+"name": "Mariachi México 70 De Pepe López",
+"popularity": 28,
+"type": "artist",
+"uri": "spotify:artist:0ay6m3OlBxTuEwu1NFHlZI"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/5mSaZpYCMBEqNHSaAR1EGx"
+},
+"followers": {
+"href": null,
+"total": 1942
+},
+"genres": [
+  "healing",
+  "new age"
+],
+"href": "https://api.spotify.com/v1/artists/5mSaZpYCMBEqNHSaAR1EGx",
+"id": "5mSaZpYCMBEqNHSaAR1EGx",
+"images": [
+  {
+"height": 600,
+"url": "https://i.scdn.co/image/15d5ce1477dfb6ee9ce539b909e8face80289c65",
+"width": 600
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/fdfd63d2b22c5617e5b549772de463f12fde739b",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/5f22c8fe7b9d1bf8df019293b82a1e2827007db1",
+"width": 64
+}
+],
+"name": "Michel Pépé",
+"popularity": 39,
+"type": "artist",
+"uri": "spotify:artist:5mSaZpYCMBEqNHSaAR1EGx"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/6UT3rmNEV2e4RVRoeSElgN"
+},
+"followers": {
+"href": null,
+"total": 3729
+},
+"genres": [
+  "big beat",
+  "trip hop"
+],
+"href": "https://api.spotify.com/v1/artists/6UT3rmNEV2e4RVRoeSElgN",
+"id": "6UT3rmNEV2e4RVRoeSElgN",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/65af8ac3a8769f90b9eaba56b94ae4a8dbfcff7a",
+"width": 640
+},
+  {
+"height": 320,
+"url": "https://i.scdn.co/image/44602f5662a4fa12257b51b41d049d7968c315d1",
+"width": 320
+},
+  {
+"height": 160,
+"url": "https://i.scdn.co/image/58e190836c37c5b63daa6bfe6cf4020cf3e237d9",
+"width": 160
+}
+],
+"name": "Pepe Deluxe",
+"popularity": 31,
+"type": "artist",
+"uri": "spotify:artist:6UT3rmNEV2e4RVRoeSElgN"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/4KVkkOO0DSrpPzla5vEnsE"
+},
+"followers": {
+"href": null,
+"total": 775
+},
+"genres": [],
+"href": "https://api.spotify.com/v1/artists/4KVkkOO0DSrpPzla5vEnsE",
+"id": "4KVkkOO0DSrpPzla5vEnsE",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/becd5534ff65b7c830a77283e4772962e6328338",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/ff9e5004db37251d8b83fa1271b264582e2d2a14",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/12b478b500a1a0bee89dc62b22bfb79fae077886",
+"width": 64
+}
+],
+"name": "Pepe",
+"popularity": 33,
+"type": "artist",
+"uri": "spotify:artist:4KVkkOO0DSrpPzla5vEnsE"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/6OgrmJe15LhZrdbRQxE2Bl"
+},
+"followers": {
+"href": null,
+"total": 2413
+},
+"genres": [
+  "bolero",
+  "mexican rock-and-roll",
+  "ranchera"
+],
+"href": "https://api.spotify.com/v1/artists/6OgrmJe15LhZrdbRQxE2Bl",
+"id": "6OgrmJe15LhZrdbRQxE2Bl",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/6433317852d42904e743e15bc1207d120c5a3165",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/4452107c27f4480133e3d2ad03104b948d00ae73",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/9906895c293b43b717a426a3fa3a02f95a6a1315",
+"width": 64
+}
+],
+"name": "Pepe Jara",
+"popularity": 30,
+"type": "artist",
+"uri": "spotify:artist:6OgrmJe15LhZrdbRQxE2Bl"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/26jcTakzCqPX0KGJth8aiz"
+},
+"followers": {
+"href": null,
+"total": 1363
+},
+"genres": [],
+"href": "https://api.spotify.com/v1/artists/26jcTakzCqPX0KGJth8aiz",
+"id": "26jcTakzCqPX0KGJth8aiz",
+"images": [
+  {
+"height": 640,
+"url": "https://i.scdn.co/image/11f79ebe73287bbf53d9ef1e0e2a4b98bc78229c",
+"width": 640
+},
+  {
+"height": 300,
+"url": "https://i.scdn.co/image/638c70023093cc6feea5a5581646fc458061fd22",
+"width": 300
+},
+  {
+"height": 64,
+"url": "https://i.scdn.co/image/926e63ee69f65b44d16dd8747de994cb693b8fc8",
+"width": 64
+}
+],
+"name": "Pepe Lopez Band",
+"popularity": 24,
+"type": "artist",
+"uri": "spotify:artist:26jcTakzCqPX0KGJth8aiz"
+},
+  {
+"external_urls": {
+"spotify": "https://open.spotify.com/artist/4soG49q4nbqaSZ68WKaXMd"
+},
+"followers": {
+"href": null,
+"total": 1
+},
+"genres": [],
+"href": "https://api.spotify.com/v1/artists/4soG49q4nbqaSZ68WKaXMd",
+"id": "4soG49q4nbqaSZ68WKaXMd",
+"images": [],
+"name": "PePe",
+"popularity": 4,
+"type": "artist",
+"uri": "spotify:artist:4soG49q4nbqaSZ68WKaXMd"
+}
+],
+"limit": 20,
+"next": "https://api.spotify.com/v1/search?query=pepe&type=artist&offset=20&limit=20",
+"offset": 0,
+"previous": null,
+"total": 794
+}
+}

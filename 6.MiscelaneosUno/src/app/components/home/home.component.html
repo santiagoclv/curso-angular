@@ -1,0 +1,27 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>
+  Demo Miscelaneos Uno
+</h1>
+<i class="fa fa-2x fa-star"></i>
+<br><br>
+
+<div class="input-group">
+  <span class="input-group-addon" id="basic-addon1" *ngIf="userName">{{userName}}</span>
+  <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1" [(ngModel)]="userName"/>
+</div>
+<br><br>
+<app-ng-styles></app-ng-styles>
+<app-css></app-css>
+<p>
+  elemento p no afectado por css en app-css component!
+</p>
+
+<app-class></app-class>
+<br><br>
+<h3>Directivas!</h3>
+<p appResaltado [colorResaltado]="'black'">
+  Utiliza una directiva este parafo!
+</p>
+
+<br>
+<app-ng-switch></app-ng-switch>

@@ -1,0 +1,69 @@
+<h4>Formularios <small>template</small></h4>
+<hr>
+<!-- Cuando el boton submit se dispara y es valio, se ejecuta "guardar" -->
+<!-- al formulario lo "casteo" a un objeto de tipo ngForm y lo paso por paramentro a "gurardar" -->
+<form (ngSubmit)="guardar(formulario)" #formulario="ngForm" novalidate="">
+
+  <div>
+
+    <div class="form-group row" [ngClass]="{ 'has-danger': nombre.errors?.required,  'has-danger': nombre.errors?.minlenght }">
+      <label class="col-2 col-form-label">Nombre</label>
+      <div class="col-8">
+
+        <input class="form-control" type="text" placeholder="Nombre" name="nombre" #nombre="ngModel" [ngModel]="defecto.nombre" minlength="3"
+          required>
+        <div class="form-control-feedback" *ngIf="nombre.errors?.required">
+          Este campo es obligatorio
+        </div>
+        <div class="form-control-feedback" *ngIf="nombre.errors?.minlenght">
+          Largo minimo {{ nombre.errors.minlenght.requiredLenght }}
+        </div>
+      </div>
+    </div>
+
+    <div class="form-group row" [ngClass]="{ 'has-danger': apellido.errors?.required,  'has-danger': apellido.errors?.minlenght }">
+      <label class="col-2 col-form-label">Apellido</label>
+      <div class="col-8">
+
+        <input class="form-control" type="text" [(ngModel)]="defecto.apellido" name="apellido" placeholder="Apellido" minlength="3"
+          #apellido="ngModel" required>
+        <div class="form-control-feedback" *ngIf="apellido.errors?.required">
+          Este campo es obligatorio
+        </div>
+        <div class="form-control-feedback" *ngIf="apellido.errors?.minlenght">
+          Largo minimo {{ apellido.errors.minlenght.requiredLenght }}
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="form-group row" [ngClass]="{ 'has-danger': email.errors?.required,  'has-danger': email.errors?.pattern }">
+    <label class="col-2 col-form-label">Correo</label>
+    <div class="col-md-8">
+
+      <input class="form-control" type="email" ngModel name="email" 
+             placeholder="Correo electrónico" #email="ngModel" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+             required>
+      <div class="form-control-feedback" *ngIf="email.errors?.required">
+        Este campo es obligatorio
+      </div>
+      <div class="form-control-feedback" *ngIf="email.errors?.pattern">
+        No es un correo valido.
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="form-group row" >
+    <label class="col-2 col-form-label">&nbsp;</label>
+    <div class="input-group col-md-8">
+      <button type="submit" class="btn btn-outline-primary">
+        Guardar
+      </button>
+    </div>
+  </div>
+
+</form>

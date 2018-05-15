@@ -1,0 +1,41 @@
+<h3> ngSwitch con enumerado </h3>
+
+<div [ngSwitch]="estadoAlerta">
+  <div *ngSwitchCase="alertas.SUCCESS" class="alert alert-success" role="alert">
+    <strong>Well done!</strong> You successfully read this important alert message.
+  </div>
+  <div *ngSwitchCase="alertas.INFO" class="alert alert-info" role="alert">
+    <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+  </div>
+  <div *ngSwitchCase="alertas.WARNING" class="alert alert-warning" role="alert">
+    <strong>Warning!</strong> Better check yourself, you're not looking too good.
+  </div>
+  <div *ngSwitchDefault class="alert alert-danger" role="alert">
+    <strong>Oh snap!</strong> Change a few things up and try submitting again.
+  </div>
+</div>
+
+<button
+  class="btn btn-success"
+  (click)="cambiarEstado(alertas.SUCCESS)"
+  type="button">
+  Success
+</button>
+<button
+  class="btn btn-danger"
+  (click)="cambiarEstado(alertas.DANGER)"
+  type="button" >
+  Danger
+</button>
+<button
+  class="btn btn-info"
+  (click)="cambiarEstado(alertas.INFO)"
+  type="button">
+  Info
+</button>
+<button
+  class="btn btn-warning"
+  (click)="cambiarEstado(alertas.WARNING)"
+  type="button" >
+  Warning
+</button>

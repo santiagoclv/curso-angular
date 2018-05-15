@@ -1,0 +1,20 @@
+<app-page-not-found *ngIf="!heroe"></app-page-not-found>
+<div class="animated fadeIn fast" *ngIf="heroe">
+  <h1>{{heroe.nombre | uppercase }} - <small class="text-muted">({{heroe.aparicion | date: 'y' }})</small></h1>
+  <hr>
+  <div class="row">
+    <div class="col-md-4">
+      <!--<img class="btn btn-block" [src]="heroe.img" [alt]="heroe.nombre">-->
+      <img class="card-img-top img-fluid" [src]="heroe.img" [alt]="heroe.nombre">
+      <button type="button" (click)="doClickBack()" class="btn btn-outline-danger btn-block">
+        Regresar
+      </button>
+    </div>
+    <div class="col-md-8">
+        <h3 class="text-muted">{{heroe.nombre}}</h3>
+        <hr>
+        <p>{{heroe.bio}}</p>
+      
+    </div>
+  </div>
+</div>
